@@ -1,8 +1,11 @@
 // Rust variables ===>
-// Date: 10/12/2023
+
+// ########################
+// ### Date: 10/12/2023 ###
+// ########################
 
 // Initialize using let command, can declare type, by default immuatble.'
-Example: 
+// Example: 
 let mut x: i32 = 6; // make it mutable using mut cmd
 
 // If we try to modify immuatable variables, we expect an error.
@@ -33,3 +36,5 @@ assert_eq!(x, 55);
 let ageAndGender = (27, "M");
 
 println!("{}", ageAndGender.0); // Prints 27
+
+println!("{}", ageAndGender.1); // Prints M
